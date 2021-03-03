@@ -1,0 +1,13 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "styles.scss",
+        "partials/_variables.scss",
+        "partials/_main.scss",
+        "partials/_menu-footer.scss",
+        "partials/_form.scss"
+    ],
+    "names": [],
+    "file": "styles.css"
+}
