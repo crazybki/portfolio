@@ -1,0 +1,12 @@
+$headingOne: 3rem;
+
+
+
+//Colors
+$mainColor: #000;
+
+
+//Mixins
+@mixin flex {
+    display: flex;
+}
