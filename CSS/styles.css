@@ -73,34 +73,102 @@ li a {
   text-transform: uppercase;
 }
 
+body {
+  background-image: url(/img/background.jpg);
+}
+
+.scroll-activate {
+  overflow: visible;
+}
+
 .formheadline {
   text-align: center;
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin-top: 4rem;
 }
 
 .contactmessage {
   text-align: center;
 }
 
+.coffecup {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.image {
+  width: 12%;
+}
+
+/************LAYOUT FOR FORMS***************/
 .grid-container {
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: (1fr)[4];
-      grid-template-rows: repeat(4, 1fr);
+  -ms-grid-rows: (120px)[2];
+      grid-template-rows: repeat(2, 120px);
 }
 
 .grid-container__child1 {
   -ms-grid-column: 2;
       grid-column-start: 2;
   grid-column-end: 3;
-  -ms-grid-row: 3;
-      grid-row-start: 3;
+  -ms-grid-row: 2;
+      grid-row-start: 2;
 }
 
 .grid-container__child2 {
   -ms-grid-column: 3;
       grid-column-start: 3;
   grid-column-end: 4;
-  -ms-grid-row: 3;
-      grid-row-start: 3;
+  -ms-grid-row: 2;
+      grid-row-start: 2;
 }
+
+input[type=text] {
+  text-align: center;
+  width: 50%;
+  height: 2rem;
+  border: 0.1rem solid #6C6E66;
+  border-radius: 0.3rem;
+}
+
+input[type=text]:focus {
+  outline: none;
+  background-color: #FFFFEC;
+}
+
+.firstname {
+  margin: 0 1rem 1rem 2.1rem;
+}
+
+.lastname {
+  margin: 0 1rem 1rem 2.2rem;
+}
+
+.emailadress {
+  margin: 0 1rem 1rem 1rem;
+}
+
+.form-txt {
+  font-size: 1.3rem;
+}
+
+textarea {
+  width: 600px;
+  height: 300px;
+  border: 0.1rem solid #6C6E66;
+  border-radius: 0.3rem;
+}
+
+textarea:focus {
+  outline: 0;
+  background-color: #FFFFEC;
+}
+
+/************LAYOUT FOR FORMS***************/
 /*# sourceMappingURL=styles.css.map */

@@ -14,10 +14,10 @@ function checkFirstName() {
     let checkName = firstNameReg.test(userInput);
 
     if (checkName) {
-        thanksmessage.style.border = 'green';
+
 
     } else {
-        thanksmessage.innerHTML = `please enter a real name`;
+
     }
 };
 
@@ -26,9 +26,5 @@ lastName.addEventListener('input', checkLastName);
 function checkLastName() {
     const lastNameReg = /^[a-z/A-Z\-]{3,}$/;
     let lastNameInput = lastName.value;
-}
-
-function message() {
-
 }
 

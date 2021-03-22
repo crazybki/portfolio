@@ -10,36 +10,48 @@
 </head>
 
 <body>
-    <h1 class="formheadline">Contact me</h1>
-    <p class="contactmessage">Please do not hesitate to contact me. </p>
-    <form class="form" action="https://formspree.io/f/xqkgvyrl" method="POST">
-        <div class="grid-container">
-            <div class="grid-container__child1">
-                <div>
-                    <label for="first name">First name</label>
-                    <input class="firstname" type="text">
-                </div>
-                <div>
-                    <label for="last name">Last name</label>
-                    <input class="lastname" type="text" name="name">
-                </div>
-                <div>
-                    <label for="email" name="_replyto">Email adress</label>
-                    <input class="emailadress" type="text">
-                </div>
-            </div>
-            <div class="grid-container__child2">
-                <div>
-                    <textarea name="message" class="messages" cols="30" rows="10"></textarea>
-                </div>
-                <div>
-                    <button value="Send">Send</button>
-                </div>
-            </div>
+    <div class="scroll-activate">
+        <nav>
+            <ul>
+                <li><a href="#">About me</a></li>
+                <li><a href="/portfolio.html">My portfolio</a></li>
+                <li><a href="/contactform.html">Contact me</a></li>
+            </ul>
+        </nav>
+        <h1 class="formheadline">Contact me</h1>
+        <p class="contactmessage">Please do not hesitate to contact me. </p>
+        <div class="coffecup">
+            <img class="image" src="/img/coffeeCup.png" alt="image of cofffe cup">
         </div>
-    </form>
-    <p class="message"></p>
-
+        <form class="form" action="https://formspree.io/f/xqkgvyrl" method="POST">
+            <div class="grid-container">
+                <div class="grid-container__child1">
+                    <div>
+                        <label class="form-txt" for="first name">First name</label>
+                        <input placeholder="First name..." class="firstname" type="text">
+                    </div>
+                    <div>
+                        <label class="form-txt" for="last name">Last name</label>
+                        <input placeholder="Last name..." class="lastname" type="text" name="name">
+                    </div>
+                    <div>
+                        <label class="form-txt" for="email" name="_replyto">Email adress</label>
+                        <input placeholder="Email..." class="emailadress" type="text">
+                    </div>
+                </div>
+                <div class="grid-container__child2">
+                    <div>
+                        <textarea name="message" placeholder="Write me a message..." class="form-txt" cols="30"
+                            rows="10"></textarea>
+                    </div>
+                    <div>
+                        <button value="Send">Send</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <p class="message"></p>
+    </div>
     <script src="/contactform.js"></script>
 </body>
 
