@@ -1,5 +1,8 @@
 body {
-    background-image: url(/img/background.jpg);
+    background-image: url(/img/shapelined-_JBKdviweXI-unsplash.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    box-sizing: border-box;
 }
 
 .scroll-activate {
@@ -29,7 +32,7 @@ body {
 /************LAYOUT FOR FORMS***************/
 .grid-container {
     display: grid;
-    grid-template-rows: repeat(2, 120px);
+    grid-template-rows: repeat(3, 120px);
 }
 
 .grid-container__child1 {
@@ -42,6 +45,13 @@ body {
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 2;
+}
+
+.grid-container__child3 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    position: relative;
 }
 
 input[type=text] {
@@ -58,11 +68,11 @@ input[type=text]:focus {
 }
 
 .firstname {
-    margin: 0 1rem 1rem 2.1rem;
+    margin: 0 1rem 1rem 2.2rem;
 }
 
 .lastname {
-    margin: 0 1rem 1rem 2.2rem;
+    margin: 0 1rem 1rem 2.3rem;
 }
 
 .emailadress {
@@ -86,3 +96,17 @@ textarea:focus {
 }
 
 /************LAYOUT FOR FORMS***************/
+
+/************BUTTON***************/
+.sendbtn {
+    position: absolute;
+    left: 125px;
+    top: 3px;
+    width: 350px;
+    height: 3.5rem;
+    border-radius: 5px;
+    background-color: orange;
+    text-transform: uppercase;
+}
+
+/************BUTTON***************/
