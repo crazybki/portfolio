@@ -39,14 +39,31 @@ li a {
 
 footer {
   position: fixed;
-  /* Instead of 'absolute' */
-  bottom: 0px;
-  height: 5rem;
+  left: 0;
+  bottom: 0;
   width: 100%;
   background-color: #000;
+  height: 10%;
 }
 
-body {
+.socialmedia {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.facebookicon {
+  width: 20px;
+}
+
+.instagramicon {
+  width: 5%;
+}
+
+.body-index {
   -webkit-transition: ease-in-out 0.5s;
   transition: ease-in-out 0.5s;
   background-image: url(/img/shapelined-_JBKdviweXI-unsplash.jpg);
@@ -88,7 +105,7 @@ body {
   -webkit-transition: ease-in-out 0.5s;
   transition: ease-in-out 0.5s;
   position: absolute;
-  bottom: 210px;
+  bottom: 20%;
 }
 
 .containerbtn__btn:hover {

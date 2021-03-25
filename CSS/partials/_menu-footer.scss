@@ -23,11 +23,23 @@ li a {
 }
 
 footer {
-    position: fixed; /* Instead of 'absolute' */
-    bottom: 0px;
-    height: 5rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
     width: 100%;
     background-color: $mainColor;
+    height: 10%;
 }
 
+.socialmedia {
+    display: flex;
+    justify-content: center;
+}
 
+.facebookicon {
+    width: 20px;
+}
+
+.instagramicon {
+    width: 5%;
+}

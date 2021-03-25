@@ -1,4 +1,4 @@
-body {
+.body-index {
     transition: ease-in-out 0.5s;
     background-image: url(/img/shapelined-_JBKdviweXI-unsplash.jpg);
 }
@@ -33,7 +33,7 @@ body {
     font-size: $textsize;
     transition: ease-in-out 0.5s;
     position: absolute;
-    bottom: 210px;
+    bottom: 20%;
 }
 
 .containerbtn__btn:hover {
