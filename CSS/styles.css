@@ -4,14 +4,50 @@
 }
 
 body {
-  background-image: url(/img/bernard-hermant-u7VDgNGb78w-unsplash.jpg);
-  background-repeat: no-repeat;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
-body {
-  background-image: none;
-  height: 100%;
-  overflow-y: hidden;
+nav {
+  background-color: #000;
+  height: 5rem;
+}
+
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  list-style-type: none;
+}
+
+li a {
+  font-size: 3rem;
+  text-decoration: none;
+  color: #000;
+  text-transform: uppercase;
+  color: #FFF;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.menuChoice {
+  margin: 300px 0 0 0;
+}
+
+footer {
+  position: fixed;
+  /* Instead of 'absolute' */
+  bottom: 0px;
+  height: 5rem;
+  width: 100%;
+  background-color: #000;
+}
+
+.containertext__headings {
+  font-size: 3rem;
 }
 
 .containersnap {
@@ -57,28 +93,10 @@ body {
   width: 45%;
 }
 
-ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  list-style-type: none;
-}
-
-li a {
-  font-size: 3rem;
-  text-decoration: none;
-  color: #000;
-  text-transform: uppercase;
-}
-
-body {
+.form-body {
   background-image: url(/img/shapelined-_JBKdviweXI-unsplash.jpg);
   background-position: center;
   background-repeat: repeat;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
 }
 
 .scroll-activate {
@@ -89,7 +107,6 @@ body {
   text-align: center;
   font-size: 3rem;
   text-transform: uppercase;
-  margin-top: 4rem;
 }
 
 .contactmessage {

@@ -1,3 +1,8 @@
+nav {
+    background-color: $mainColor;
+    height: 5rem;
+}
+
 ul {
     @include flex();
     justify-content: space-around;
@@ -9,4 +14,20 @@ li a {
     text-decoration: none;
     color: $mainColor;
     text-transform: uppercase;
+    color: $fontColor;
+    flex: 1;
 }
+
+.menuChoice {
+    margin: 300px 0 0 0;
+}
+
+footer {
+    position: fixed; /* Instead of 'absolute' */
+    bottom: 0px;
+    height: 5rem;
+    width: 100%;
+    background-color: $mainColor;
+}
+
+

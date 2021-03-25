@@ -1,8 +1,7 @@
-body {
+.form-body {
     background-image: url(/img/shapelined-_JBKdviweXI-unsplash.jpg);
     background-position: center;
     background-repeat: repeat;
-    box-sizing: border-box;
 }
 
 .scroll-activate {
@@ -13,7 +12,6 @@ body {
     text-align: center;
     font-size: $headingOne;
     text-transform: uppercase;
-    margin-top: 4rem;
 }
 
 .contactmessage {
