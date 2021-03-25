@@ -100,11 +100,8 @@ textarea:focus {
     position: absolute;
     left: 125px;
     top: 3px;
+    @include btn();
     width: 350px;
-    height: 3.5rem;
-    border-radius: 5px;
-    background-color: orange;
-    text-transform: uppercase;
 }
 
 /************BUTTON***************/

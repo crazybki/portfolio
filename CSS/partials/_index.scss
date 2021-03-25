@@ -1,15 +1,79 @@
-.containertext__headings {
-    font-size: $headingOne;
+body {
+    transition: ease-in-out 0.5s;
+    background-image: url(/img/shapelined-_JBKdviweXI-unsplash.jpg);
+}
+
+.container {
+    text-align: center;
+    margin: 3rem 0 0 0;
 }
 
 
+.container__introtxt {
+    font-size: $headingFrontpage;
+}
+
+.github {
+    text-align: center;
+}
+
+.containerbtn {
+    display: flex;
+    justify-content: center;
+
+}
+
+.containerbtn__btn {
+    @include btn();
+    width: 300px;
+    text-align: center;
+    line-height: 60px;
+    text-decoration: none;
+    color: $mainColor;
+    font-size: $textsize;
+    transition: ease-in-out 0.5s;
+    position: absolute;
+    bottom: 210px;
+}
+
+.containerbtn__btn:hover {
+    background-color: #FFC240;
+    transform: translateY(1px);
+}
+
+.containerWork {
+    transition: opacity 1s ease-in-out;
+    display: flex;
+    justify-content: center;
+}
+
+.changebackground {
+    opacity: 1;
+    animation-name: fadeInOpacity;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    width: 40%;
+}
+
+.changebackground2 {
+    opacity: 1;
+    animation-name: fadeInOpacity;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    width: 40%;
+}
+
+@keyframes fadeInOpacity {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
 
 
-
-
-
-
-
-
-
-
+    100% {
+        opacity: 0;
+    }
+}

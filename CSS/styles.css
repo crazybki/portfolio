@@ -46,8 +46,112 @@ footer {
   background-color: #000;
 }
 
-.containertext__headings {
-  font-size: 3rem;
+body {
+  -webkit-transition: ease-in-out 0.5s;
+  transition: ease-in-out 0.5s;
+  background-image: url(/img/shapelined-_JBKdviweXI-unsplash.jpg);
+}
+
+.container {
+  text-align: center;
+  margin: 3rem 0 0 0;
+}
+
+.container__introtxt {
+  font-size: 2rem;
+}
+
+.github {
+  text-align: center;
+}
+
+.containerbtn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.containerbtn__btn {
+  height: 3.5rem;
+  border-radius: 5px;
+  background-color: #ffa500;
+  text-transform: uppercase;
+  width: 300px;
+  text-align: center;
+  line-height: 60px;
+  text-decoration: none;
+  color: #000;
+  font-size: 1.3rem;
+  -webkit-transition: ease-in-out 0.5s;
+  transition: ease-in-out 0.5s;
+  position: absolute;
+  bottom: 210px;
+}
+
+.containerbtn__btn:hover {
+  background-color: #FFC240;
+  -webkit-transform: translateY(1px);
+          transform: translateY(1px);
+}
+
+.containerWork {
+  -webkit-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.changebackground {
+  opacity: 1;
+  -webkit-animation-name: fadeInOpacity;
+          animation-name: fadeInOpacity;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  width: 40%;
+}
+
+.changebackground2 {
+  opacity: 1;
+  -webkit-animation-name: fadeInOpacity;
+          animation-name: fadeInOpacity;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  width: 40%;
+}
+
+@-webkit-keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
 .containersnap {
@@ -206,11 +310,11 @@ textarea:focus {
   position: absolute;
   left: 125px;
   top: 3px;
-  width: 350px;
   height: 3.5rem;
   border-radius: 5px;
-  background-color: orange;
+  background-color: #ffa500;
   text-transform: uppercase;
+  width: 350px;
 }
 
 /************BUTTON***************/

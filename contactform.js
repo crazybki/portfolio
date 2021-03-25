@@ -1,9 +1,5 @@
 const emailApi = "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";
 
-const firstName = document.querySelector('.firstname');
-const lastName = document.querySelector('.lastname');
-const emailAdress = document.querySelector('.emailadress');
-const thanksmessage = document.querySelector('.firstname');
 const getAllElements = document.querySelectorAll('.formElements');
 
 getAllElements.forEach(formElements => {

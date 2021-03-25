@@ -1,5 +1,6 @@
 //headings
 $headingOne: 3rem;
+$headingFrontpage: 2rem;
 $textsize: 1.3rem;
 
 //forms
@@ -13,6 +14,13 @@ $fontColor: #FFF;
 //Mixins
 @mixin flex {
     display: flex;
+}
+
+@mixin btn {
+    height: 3.5rem;
+    border-radius: 5px;
+    background-color: #ffa500;
+    text-transform: uppercase;
 }
 
 * {
