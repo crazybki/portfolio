@@ -23,12 +23,37 @@ $fontColor: #FFF;
     text-transform: uppercase;
 }
 
-* {
+html,
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+center,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+footer,
+header,
+menu,
+nav,
+section {
     margin: 0;
-    padding: 0;
 }
 
-body {
+* {
     box-sizing: border-box;
 
 }
