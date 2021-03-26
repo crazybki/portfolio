@@ -2,6 +2,10 @@
     background-image: url(/img/shapelined-_JBKdviweXI-unsplash.jpg);
     background-position: center;
     background-repeat: repeat;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    font-family: $fonts;
 }
 
 .scroll-activate {
@@ -67,14 +71,17 @@ input[type=text]:focus {
 
 .firstname {
     margin: 0 1rem 1rem 2.2rem;
+    font-family: $fonts;
 }
 
 .lastname {
     margin: 0 1rem 1rem 2.3rem;
+    font-family: $fonts;
 }
 
 .emailadress {
     margin: 0 1rem 1rem 1rem;
+    font-family: $fonts;
 }
 
 .form-txt {
@@ -86,6 +93,7 @@ textarea {
     height: 300px;
     border: 0.1rem solid $border-color;
     border-radius: 0.3rem;
+    font-family: $fonts;
 }
 
 textarea:focus {
@@ -102,6 +110,7 @@ textarea:focus {
     top: 3px;
     @include btn();
     width: 350px;
+    font-family: $fonts;
 }
 
 /************BUTTON***************/

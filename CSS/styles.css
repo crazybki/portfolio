@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Ramabhadra';
+  src: url(/fonts/Ramabhadra-Regular.ttf);
+}
+
 html,
 html,
 body,
@@ -56,6 +61,7 @@ li a {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
+  font-family: "Ramabhadra";
 }
 
 .menuChoice {
@@ -63,12 +69,10 @@ li a {
 }
 
 footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
+  margin-top: auto;
   width: 100%;
   background-color: #000;
-  height: 10%;
+  height: 8%;
 }
 
 .socialmedia {
@@ -108,22 +112,45 @@ footer {
 }
 
 .body-index {
-  -webkit-transition: ease-in-out 0.5s;
-  transition: ease-in-out 0.5s;
-  background-image: url(/img/shapelined-_JBKdviweXI-unsplash.jpg);
+  background-image: url(/img/pattern.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: "Ramabhadra";
 }
 
 .container {
   text-align: center;
-  margin: 3rem 0 0 0;
+  margin: 6rem 0 5rem 0;
 }
 
-.container__introtxt {
-  font-size: 2rem;
+.container__line1 {
+  font-size: 4rem;
+  font-family: "Ramabhadra";
 }
 
-.github {
-  text-align: center;
+.container__line2 {
+  font-size: 3rem;
+  font-family: "Ramabhadra";
+}
+
+.container__line3 {
+  font-size: 2.5rem;
+  font-family: "Ramabhadra";
+}
+
+.container__line4 {
+  font-size: 1.9rem;
+  font-family: "Ramabhadra";
 }
 
 .containerbtn {
@@ -138,7 +165,7 @@ footer {
 .containerbtn__btn {
   height: 3.5rem;
   border-radius: 5px;
-  background-color: #ffa500;
+  background-color: #ffe70b;
   text-transform: uppercase;
   width: 300px;
   text-align: center;
@@ -146,21 +173,16 @@ footer {
   text-decoration: none;
   color: #000;
   font-size: 1.3rem;
-  -webkit-transition: ease-in-out 0.5s;
-  transition: ease-in-out 0.5s;
-  position: absolute;
-  bottom: 20%;
+  margin: 150px 150px;
 }
 
 .containerbtn__btn:hover {
-  background-color: #FFC240;
+  background-color: #f7b528;
   -webkit-transform: translateY(1px);
           transform: translateY(1px);
 }
 
-.containerWork {
-  -webkit-transition: opacity 1s ease-in-out;
-  transition: opacity 1s ease-in-out;
+.flexcontainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -169,50 +191,34 @@ footer {
           justify-content: center;
 }
 
-.changebackground {
-  opacity: 1;
-  -webkit-animation-name: fadeInOpacity;
-          animation-name: fadeInOpacity;
-  -webkit-animation-duration: 4s;
-          animation-duration: 4s;
-  -webkit-animation-timing-function: ease-in-out;
-          animation-timing-function: ease-in-out;
-  width: 40%;
+.flexelements {
+  width: 14%;
+  background-color: #035c8f;
+  color: #FFF;
+  height: 320px;
+  margin: 40px 40px 0 0;
+  border-radius: 6px;
 }
 
-.changebackground2 {
-  opacity: 1;
-  -webkit-animation-name: fadeInOpacity;
-          animation-name: fadeInOpacity;
-  -webkit-animation-duration: 4s;
-          animation-duration: 4s;
-  -webkit-animation-timing-function: ease-in-out;
-          animation-timing-function: ease-in-out;
-  width: 40%;
+.headling-work {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 15px 0 0 0;
 }
 
-@-webkit-keyframes fadeInOpacity {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
+#lists, #list2 {
+  display: inline-block;
+  list-style-type: square;
+  margin: 8px 0 0 10px;
+  font-size: 1.3rem;
 }
 
-@keyframes fadeInOpacity {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
+#list2 {
+  padding: 0 0 0 20px;
+}
+
+.workexperience {
+  margin: 5px 0 0 0;
 }
 
 .containersnap {
@@ -224,6 +230,7 @@ footer {
   height: 100vh;
   overflow: auto;
   scroll-behavior: smooth;
+  font-family: "Ramabhadra";
 }
 
 .containersnap__elements {
@@ -262,6 +269,15 @@ footer {
   background-image: url(/img/shapelined-_JBKdviweXI-unsplash.jpg);
   background-position: center;
   background-repeat: repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: "Ramabhadra";
 }
 
 .scroll-activate {
@@ -339,14 +355,17 @@ input[type=text]:focus {
 
 .firstname {
   margin: 0 1rem 1rem 2.2rem;
+  font-family: "Ramabhadra";
 }
 
 .lastname {
   margin: 0 1rem 1rem 2.3rem;
+  font-family: "Ramabhadra";
 }
 
 .emailadress {
   margin: 0 1rem 1rem 1rem;
+  font-family: "Ramabhadra";
 }
 
 .form-txt {
@@ -358,6 +377,7 @@ textarea {
   height: 300px;
   border: 0.1rem solid #6C6E66;
   border-radius: 0.3rem;
+  font-family: "Ramabhadra";
 }
 
 textarea:focus {
@@ -373,9 +393,10 @@ textarea:focus {
   top: 3px;
   height: 3.5rem;
   border-radius: 5px;
-  background-color: #ffa500;
+  background-color: #ffe70b;
   text-transform: uppercase;
   width: 350px;
+  font-family: "Ramabhadra";
 }
 
 /************BUTTON***************/

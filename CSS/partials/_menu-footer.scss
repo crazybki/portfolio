@@ -16,6 +16,7 @@ li a {
     text-transform: uppercase;
     color: $fontColor;
     flex: 1;
+    font-family: $fonts;
 }
 
 .menuChoice {
@@ -23,12 +24,10 @@ li a {
 }
 
 footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
+    margin-top: auto;
     width: 100%;
     background-color: $mainColor;
-    height: 10%;
+    height: 8%;
 }
 
 .socialmedia {

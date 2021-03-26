@@ -1,7 +1,13 @@
 //headings
 $headingOne: 3rem;
-$headingFrontpage: 2rem;
 $textsize: 1.3rem;
+
+//fonts for index file
+$headingFrontpage1: 4rem;
+$headingFrontpage2: 3rem;
+$headingFrontpage3: 2.5rem;
+$headingFrontpage4: 1.9rem;
+
 
 //forms
 $border-color: #6C6E66;
@@ -9,6 +15,14 @@ $border-color: #6C6E66;
 //Colors
 $mainColor: #000;
 $fontColor: #FFF;
+
+// fonts
+@font-face {
+    font-family: 'Ramabhadra';
+    src: url(/fonts/Ramabhadra-Regular.ttf);
+}
+
+$fonts: 'Ramabhadra';
 
 
 //Mixins
@@ -19,7 +33,7 @@ $fontColor: #FFF;
 @mixin btn {
     height: 3.5rem;
     border-radius: 5px;
-    background-color: #ffa500;
+    background-color: #ffe70b;
     text-transform: uppercase;
 }
 
@@ -55,5 +69,4 @@ section {
 
 * {
     box-sizing: border-box;
-
 }
