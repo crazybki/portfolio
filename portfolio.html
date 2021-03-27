@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/CSS/styles.css">
+    <script src="https://kit.fontawesome.com/359b1a3c98.js" crossorigin="anonymous"></script>
     <title>My portfolio</title>
 </head>
 
@@ -19,25 +20,30 @@
     </nav>
     <section>
         <div class="containersnap">
-            <div class="containersnap__elements">
-                <h1>My portfolio</h1>
-                <div class="containersnap__imagecontainer">
-                    <img class="containersnap__spacex" src="/img/spaceX.jpg" alt="image of spaceX microsite exam">
-                </div>
-                <div class="pageinfo">
-                    <h2>SpaceX</h2>
-                    <h3>Exam 1 year</h3>
-                    <p>The exam for the first was to build a microsite for either NASA or SpaceX,
-                        to promote upcoming launches. There was also requirement to connect to an API,
-                        and also add some form of counter to display launches.
-                    </p>
-                    <p>Made in:</p>
 
+            <h1 class="portfolioheading">My portfolio</h1>
+            <div class="containersnap__imagecontainer">
+                <img class="containersnap__spacex" src="/img/spaceX.jpg" alt="image of spaceX microsite exam">
+            </div>
+            <div id="pageinfo">
+                <h2 class="pageinfo__heading">SpaceX</h2>
+                <h3 class="pageinfo__heading2">Exam 1 year:</h3>
+                <p class="pageinfo__txt">The exam for the first was to build a microsite for either NASA or
+                    SpaceX,
+                    to promote upcoming launches. There was also requirement to connect to an API,
+                    and also add some form of counter to display launches.
+                </p>
+                <p class="pageinfo__txt">Made in:</p>
+                <div class="icons">
+                    <p class="icons__specific"><i class="fab fa-html5 fa-5x"></i></p>
+                    <p class="icons__specific"><i class="fab fa-css3-alt fa-5x"></i></p>
+                    <p class="icons__specific"><i class="fab fa-js-square fa-5x"></i></p>
                 </div>
             </div>
+
             <div class="containersnap__elements">
                 <div class="containersnap__imagecontainer">
-                    <img class="containersnap__gameofthrones" src="/img/GameOfThrone.jpg"
+                    <img class="containersnap__gameofthrones" src="/img/got.png.jpg"
                         alt="image of game of thrones website semesterproject">
                 </div>
                 <h2>Game of thrones</h2>
@@ -45,6 +51,7 @@
                 <p></p>
             </div>
         </div>
+        <p class="btn-down"><i class="fas fa-arrow-circle-down fa-4x"></i></p>
     </section>
     <footer>
         <div class="socialmedia">
@@ -60,6 +67,7 @@
         </div>
     </footer>
     </footer>
+    <script src="/portfolio.js"></script>
 </body>
 
 </html>

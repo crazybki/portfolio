@@ -1,32 +1,20 @@
 .containersnap {
-    background-image: url(/img/pattern.png);
+    //background-image: url(/img/pattern.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
-    overflow-y: auto;
-    position: relative;
-    scroll-snap-type: y mandatory;
-    width: 100%;
-    height: 100vh;
-    overflow: auto;
-    scroll-behavior: smooth;
     font-family: $fonts;
 }
 
+.btn-down {
+    position: fixed;
+    bottom: 100px;
+    right: 50px;
+}
+
 .containersnap__elements {
-    height: 100vh;
-    scroll-snap-align: start;
-}
-
-.containersnap__elements:nth-child(1) {
-    background-size: cover;
-    background-image: url(/img/background.jpg);
-}
-
-.containersnap__elements:nth-child(2) {
-    background-size: cover;
-    background-image: url(/img/background.jpg);
+    margin: 12rem 0 0 0;
 }
 
 .containersnap__imagecontainer {
@@ -34,9 +22,47 @@
     justify-content: space-evenly;
 }
 
-.containersnap__spacex {
-    width: 70%;
+.portfolioheading {
+    text-align: center;
+    font-size: $headingFrontpage4;
+    text-transform: uppercase;
+    margin: 3.125rem 0 3.125rem 0;
 }
+
+#pageinfo {
+    max-width: 50%;
+    margin: auto;
+}
+
+.pageinfo__heading {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 30px 0 20px 0;
+}
+
+.pageinfo__heading2 {
+    margin: 0 0 0 30px;
+}
+
+.pageinfo__txt {
+    margin: 20px 0 0 30px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+}
+
+.icons__specific {
+    margin: 1.5rem 0 5rem 1.5rem;
+}
+
+
+
+.containersnap__spacex {
+    width: 50%;
+}
+
 
 .containersnap__gameofthrones {
     width: 45%;
