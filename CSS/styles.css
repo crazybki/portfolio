@@ -222,6 +222,11 @@ footer {
 }
 
 .containersnap {
+  background-image: url(/img/pattern.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
   overflow-y: auto;
   position: relative;
   -ms-scroll-snap-type: y mandatory;
@@ -266,9 +271,11 @@ footer {
 }
 
 .form-body {
-  background-image: url(/img/shapelined-_JBKdviweXI-unsplash.jpg);
-  background-position: center;
-  background-repeat: repeat;
+  background-image: url(/img/pattern.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

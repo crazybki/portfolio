@@ -1,4 +1,9 @@
 .containersnap {
+    background-image: url(/img/pattern.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
     overflow-y: auto;
     position: relative;
     scroll-snap-type: y mandatory;
