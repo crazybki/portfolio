@@ -53,6 +53,7 @@
     color: $mainColor;
     font-size: $textsize;
     margin: 150px 150px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.6);
 }
 
 .containerbtn__btn:hover {
@@ -72,6 +73,7 @@
     height: 320px;
     margin: 40px 40px 0 0;
     border-radius: 6px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.6);
 }
 
 .headling-work {
@@ -89,13 +91,13 @@
 
 #list2 {
     @extend #lists;
-    padding: 0 0 0 20px;
+    padding: 0 0 0 35px;
 
 }
 
 #list3 {
     @extend #lists;
-    padding: 0 0 0 20px;
+    padding: 0 0 0 35px;
 
 }
 
