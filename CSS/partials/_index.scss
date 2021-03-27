@@ -1,5 +1,5 @@
 .body-index {
-    background-image: url(/img/pattern.png);
+    background-image: url(/img/newpattern.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -93,6 +93,46 @@
 
 }
 
+#list3 {
+    @extend #lists;
+    padding: 0 0 0 20px;
+
+}
+
 .workexperience {
     margin: 5px 0 0 0;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .flexelements {
+        width: 28%;
+        margin: 40px 20px 0 0;
+    }
+
+    #lists {
+        margin: 30px;
+    }
+
+    #list2 {
+        padding: 0 0 0 3px;
+
+    }
+
+    #list3 {
+        padding: 0 0 0 3px;
+
+    }
+
+    .workexperience {
+        font-size: $tabletFonts;
+    }
+
+    .headling-work {
+        text-align: center;
+        text-transform: uppercase;
+        margin: 15px 0 0 0;
+        font-size: $tabletHeading;
+    }
+
 }

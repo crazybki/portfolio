@@ -1,5 +1,5 @@
 .form-body {
-    background-image: url(/img/pattern.png);
+    background-image: url(/img/newpattern.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -60,8 +60,8 @@
 
 input[type=text] {
     text-align: center;
-    width: 50%;
-    height: 2rem;
+    width: 85%;
+    height: 3rem;
     border: 0.1rem solid $border-color;
     border-radius: 0.3rem;
 }
@@ -82,7 +82,7 @@ input[type=text]:focus {
 }
 
 .emailadress {
-    margin: 0 1rem 1rem 1rem;
+    margin: 0 1rem 1rem 2.2rem;
     font-family: $fonts;
 }
 
@@ -90,8 +90,12 @@ input[type=text]:focus {
     font-size: $textsize;
 }
 
+.label__layout {
+    text-align: center;
+}
+
 textarea {
-    width: 600px;
+    width: 500px;
     height: 300px;
     border: 0.1rem solid $border-color;
     border-radius: 0.3rem;
@@ -108,11 +112,51 @@ textarea:focus {
 /************BUTTON***************/
 .sendbtn {
     position: absolute;
-    left: 125px;
-    top: 3px;
+    left: 35px;
+    top: 90px;
     @include btn();
-    width: 350px;
+    width: 570px;
     font-family: $fonts;
 }
 
 /************BUTTON***************/
+
+
+/************TABLET***************/
+
+@media screen and (max-width: 1200px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(5, 120px);
+    }
+
+    .grid-container__child1 {
+        grid-column-start: 2;
+        grid-column-end: 7;
+        grid-row-start: 2;
+    }
+
+    .grid-container__child2 {
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 5;
+    }
+
+    .grid-container__child3 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 4;
+        position: relative;
+    }
+
+    .sendbtn {
+        position: absolute;
+        left: 125px;
+        top: 330px;
+    }
+
+    input[type=text] {
+        width: 70%;
+        height: 2.5rem;
+    }
+}

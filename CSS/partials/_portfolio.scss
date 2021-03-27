@@ -1,5 +1,5 @@
 .containersnap {
-    //background-image: url(/img/pattern.png);
+    background-image: url(/img/newpattern.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -11,7 +11,9 @@
     position: fixed;
     bottom: 100px;
     right: 50px;
+    cursor: pointer;
 }
+
 
 .containersnap__elements {
     margin: 12rem 0 0 0;
@@ -26,7 +28,7 @@
     text-align: center;
     font-size: $headingFrontpage4;
     text-transform: uppercase;
-    margin: 3.125rem 0 3.125rem 0;
+    margin: 0 0 3.125rem 0;
 }
 
 .pageinfo {
@@ -66,4 +68,66 @@
 
 .containersnap__gameofthrones {
     width: 45%;
+}
+
+.linkcontainer {
+    text-align: center;
+    padding: 80px 0 80px 0;
+}
+
+.linkcontainer__btn {
+    background-color: #ffe70b;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    color: $mainColor;
+}
+
+
+/*****************TABLETS**************************/
+
+@media screen and (max-width: 1200px) {
+    .portfolioheading {
+        margin: 0 0 1.125rem 0;
+    }
+
+    .containersnap__spacex {
+        width: 80%;
+    }
+
+    .pageinfo__heading2 {
+        margin: 0 0 0 30px;
+    }
+
+    .pageinfo {
+        max-width: 90%;
+        margin: auto;
+    }
+
+    .pageinfo__txt2 {
+        margin: 20px 0 0 30px;
+        font-size: $tabletHeading;
+    }
+
+    .icons__specific {
+        margin: 0 30px 0 30px;
+    }
+
+    .fa-5x {
+        font-size: 7em;
+    }
+
+    .containersnap__elements {
+        margin: 10rem 0 0 0;
+    }
+
+    .containersnap__elements2 {
+        margin: 5rem 0 0 0;
+    }
+
+    .containersnap__gameofthrones {
+        width: 82%;
+    }
+
 }
