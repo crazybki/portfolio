@@ -1,7 +1,7 @@
 nav {
     background-color: $mainColor;
     height: 5rem;
-    box-shadow:  0px 10px 10px rgba(39, 39, 39, 0.6);
+    box-shadow: 0px 10px 10px rgba(39, 39, 39, 0.6);
 }
 
 ul {
@@ -111,4 +111,21 @@ body::-webkit-scrollbar-thumb {
         width: 85%;
         height: 70%;
     }
+}
+
+@media screen and (max-width: 767px) {
+    nav {
+        height: 3rem;
+    }
+
+    li a {
+        font-size: $mobileNav;
+        text-decoration: none;
+        color: $mainColor;
+        text-transform: uppercase;
+        color: $fontColor;
+        flex: 1;
+        font-family: $fonts;
+    }
+
 }

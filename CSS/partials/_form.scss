@@ -133,30 +133,43 @@ textarea:focus {
     .grid-container__child1 {
         grid-column-start: 2;
         grid-column-end: 7;
-        grid-row-start: 2;
+        grid-row-start: 1;
     }
 
     .grid-container__child2 {
         grid-column-start: 2;
         grid-column-end: 4;
         grid-row-start: 5;
+        margin: 0 0 200px 0;
     }
 
     .grid-container__child3 {
         grid-column-start: 2;
         grid-column-end: 3;
-        grid-row-start: 4;
+        grid-row-start: 5;
         position: relative;
+    }
+
+    .label__layout {
+        text-align: center;
+        margin: 10px 120px 0 0;
     }
 
     .sendbtn {
         position: absolute;
-        left: 125px;
-        top: 330px;
+        left: 40px;
+        top: 320px;
+        width: 450px;
     }
 
     input[type=text] {
         width: 70%;
         height: 2.5rem;
+    }
+
+    textarea {
+        width: 450px;
+        height: 250px;
+        margin: 0 0 0 40px;
     }
 }

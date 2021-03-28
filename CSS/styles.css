@@ -156,6 +156,23 @@ body::-webkit-scrollbar-thumb {
   }
 }
 
+@media screen and (max-width: 767px) {
+  nav {
+    height: 3rem;
+  }
+  li a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    color: #FFF;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    font-family: "Ramabhadra";
+  }
+}
+
 .body-index {
   background-image: url(/img/newpattern.jpg);
   background-repeat: no-repeat;
@@ -369,6 +386,8 @@ body::-webkit-scrollbar-thumb {
 
 .containersnap__spacex {
   width: 50%;
+  -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.6);
+          box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.6);
 }
 
 .containersnap__gameofthrones {
@@ -387,6 +406,8 @@ body::-webkit-scrollbar-thumb {
   text-decoration: none;
   cursor: pointer;
   color: #000;
+  -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.6);
+          box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.6);
 }
 
 /*****************TABLETS**************************/
@@ -396,6 +417,8 @@ body::-webkit-scrollbar-thumb {
   }
   .containersnap__spacex {
     width: 80%;
+    -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.6);
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.6);
   }
   .pageinfo__heading2 {
     margin: 0 0 0 30px;
@@ -422,6 +445,8 @@ body::-webkit-scrollbar-thumb {
   }
   .containersnap__gameofthrones {
     width: 82%;
+    -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.6);
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.6);
   }
 }
 
@@ -578,8 +603,8 @@ textarea:focus {
     -ms-grid-column: 2;
         grid-column-start: 2;
     grid-column-end: 7;
-    -ms-grid-row: 2;
-        grid-row-start: 2;
+    -ms-grid-row: 1;
+        grid-row-start: 1;
   }
   .grid-container__child2 {
     -ms-grid-column: 2;
@@ -587,23 +612,34 @@ textarea:focus {
     grid-column-end: 4;
     -ms-grid-row: 5;
         grid-row-start: 5;
+    margin: 0 0 200px 0;
   }
   .grid-container__child3 {
     -ms-grid-column: 2;
         grid-column-start: 2;
     grid-column-end: 3;
-    -ms-grid-row: 4;
-        grid-row-start: 4;
+    -ms-grid-row: 5;
+        grid-row-start: 5;
     position: relative;
+  }
+  .label__layout {
+    text-align: center;
+    margin: 10px 120px 0 0;
   }
   .sendbtn {
     position: absolute;
-    left: 125px;
-    top: 330px;
+    left: 40px;
+    top: 320px;
+    width: 450px;
   }
   input[type=text] {
     width: 70%;
     height: 2.5rem;
+  }
+  textarea {
+    width: 450px;
+    height: 250px;
+    margin: 0 0 0 40px;
   }
 }
 /*# sourceMappingURL=styles.css.map */
