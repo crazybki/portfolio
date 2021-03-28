@@ -139,4 +139,57 @@
 
 }
 
-@media screen and (max-width: 767px) {}
+@media screen and (max-width: 767px) {
+    .flexcontainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flexelements {
+        width: 78%;
+        height: 280px;
+        margin: 40px 20px 0 40px;
+    }
+
+    .container__line1 {
+        font-size: $headingFrontpage2;
+
+    }
+
+    .container__line2 {
+        font-size: $headingFrontpage3;
+
+    }
+
+    .container__line3 {
+        font-size: $headingFrontpage4;
+
+    }
+
+    .container__line4 {
+        font-size: $mobileFrontpage1;
+
+    }
+
+
+    #lists {
+        margin: 20px 0 0 50px;
+    }
+
+    #list2 {
+        padding: 0 0 0 10px;
+
+    }
+
+    #list3 {
+        padding: 0 0 0 3px;
+
+    }
+
+    .containerbtn__btn {
+        @include btn();
+        width: 300px;
+        font-size: $textsize;
+        margin: 90px 90px;
+    }
+}

@@ -30,4 +30,4 @@ function scrollToPage() {
     } else {
         btn.innerHTML = `<p><i class="fas fa-arrow-circle-up fa-4x"></i></p>`;
     }
-}
+};

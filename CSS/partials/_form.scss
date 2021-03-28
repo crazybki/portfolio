@@ -173,3 +173,64 @@ textarea:focus {
         margin: 0 0 0 40px;
     }
 }
+
+@media screen and (max-width: 767px) {
+    .grid-container__child1 {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 1;
+    }
+
+    .grid-container__child2 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 5;
+        margin: 0 0 200px 0;
+    }
+
+    .grid-container__child3 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 5;
+        position: relative;
+    }
+
+    textarea {
+        width: 251px;
+        margin: 0 0 0 48px;
+    }
+
+    .sendbtn {
+        position: absolute;
+        left: -50px;
+        top: 320px;
+        width: 190px;
+    }
+
+
+    .label__layout {
+        text-align: center;
+        margin: 10px 30px 10px 0;
+    }
+
+    .formheadline {
+        text-align: center;
+        font-size: $tabletNavFont;
+        text-transform: uppercase;
+    }
+
+    .firstname {
+        margin: 0 1rem 1rem 2.8rem;
+    }
+
+
+    .lastname {
+        margin: 0 1rem 1rem 2.8rem;
+        font-family: $fonts;
+    }
+
+    .emailadress {
+        margin: 0 1rem 1rem 2.8rem;
+        font-family: $fonts;
+    }
+}

@@ -118,7 +118,7 @@
     }
 
     .fa-5x {
-        font-size: 7em;
+        font-size: 7em !important;
     }
 
     .containersnap__elements {
@@ -134,4 +134,39 @@
         box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.6);
     }
 
+}
+
+@media screen and(max-width: 767px) {
+    .containersnap__spacex {
+        width: 90%;
+    }
+
+    .btn-down {
+        display: none;
+    }
+
+    .pageinfo {
+        max-width: 90%;
+        margin: 0 0 0 0;
+    }
+
+    .pageinfo__txt2 {
+        margin: 20px 0 0 30px;
+    }
+
+    .pageinfo__heading {
+        margin: 30px 0 20px 35px;
+    }
+
+    .fa-5x {
+        font-size: 4em !important;
+    }
+
+    .icons__specific {
+        margin: 0 20px 0 50px;
+    }
+
+    .mobile__specific {
+        margin: 0 20px 0 29px;
+    }
 }
